@@ -7,16 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- credit to https://www.w3schools.com/howto/howto_js_mobile_navbar.asp for the javascript parts -->
+    <!-- credit to https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible
+    for the javascript and some other parts -->
     <div class="godnav">
         <a href="#home" class="active">gods</a>
-        <div id="myLinks1">
-            <a href="#GodH">history</a>
-            <a href="#GodP">personality</a>
-        </div>
-        <div id="myLinks2">
-            <a href="#Godh">history</a>
-            <a href="#Godp">personality</a>
+        <!-- puts both collapsibles into one side of the screen -->
+        <div class="combine">
+            <button type="button" class="collapsible">god 1</button>
+            <div class="content">
+                <a href="#GodH">history</a>
+                <a href="#GodP">personality</a>
+            </div>
+            <button type="button" class="collapsible">god 2</button>
+            <div class="content">
+                <a href="#Godh">history</a>
+                <a href="#Godp">personality</a>
+            </div>
         </div>
     </div>
 </body>

@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+.godnav {
+    overflow: hidden;
+    background-color: aqua;
+    position: relative;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.godnav a {
+    color: black;
+    padding-left: 8px;
+    text-decoration: none;
+    display: block;
+}
+
+.active{
+    font-size: 50px;
+}
+
+.collapsible{
+    background-color: white;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    width: 50%;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+.collapsible:hover{
+    background-color: gray;
+}
+
+.content{
+    display: none;
+}
