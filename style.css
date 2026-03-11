@@ -3,7 +3,6 @@ body{
 }
 
 .godnav {
-    overflow: hidden;
     background-color: aqua;
     position: relative;
     padding: 8px;
@@ -29,7 +28,7 @@ body{
     font-size: 15px;
     padding: 5px;
     margin: 5px;
-    width: 50%;
+    width: 180px;
     border: none;
     text-align: center;
     outline: none;
@@ -41,4 +40,12 @@ body{
 
 .content{
     display: none;
+    overflow: hidden;
+    background-color: gray;
+    z-index: 1;
+
+}
+
+.combine{
+    width: 200px;
 }
