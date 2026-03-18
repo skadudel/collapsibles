@@ -1,6 +1,8 @@
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
+//Makes the collapsible show the "subtext" that is the links when you click on it. 
+//Also hides it when you click again.
 for (i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
